@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mNameList);
         mainListView.setAdapter(mArrayAdapter);
         mainListView.setOnItemClickListener(this);
-     
+
         mainListView.setOnItemLongClickListener(this);
 
 
@@ -82,10 +82,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("Удаляете Имя!")
-                .setMessage("Удалить?")
+        builder.setTitle("Delete name!")
+                .setMessage("Delete?")
                 .setCancelable(false)
-                .setNegativeButton("Да, удалить",
+                .setNegativeButton("Yes",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.cancel();
