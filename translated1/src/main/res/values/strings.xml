@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Кликер переведенный</string>
+    <string name="push">Нажми меня!</string>
+    <string name="textafter">You pushed the button</string>
+    <string name="afternumb">times.</string>
+    <string name="decrease_it">Уменьшить</string>
+    <string name="clear_all">Очистить</string>
+</resources>

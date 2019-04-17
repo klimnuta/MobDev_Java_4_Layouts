@@ -1,1 +1,1 @@
-include ':main_elements', ':layout_land', ':visual'
+include ':main_elements', ':layout_land', ':visual', ':translated1', ':translated_guess_the_number'
