@@ -7,19 +7,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/base1"
-        android:text="button"/>
+        android:text="@string/button"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button"
+        android:text="@string/button"
         android:layout_toRightOf="@id/base1"
         android:layout_below="@id/base1"
-        android:id="@+id/base2"/>
+        android:id="@+id/base2"
+        android:layout_toEndOf="@id/base1" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/base2"
         android:layout_below="@id/base2"
-        android:text="button"
-        />
+        android:text="@string/button"
+        android:layout_toEndOf="@id/base2" />
 </RelativeLayout>
